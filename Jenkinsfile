@@ -62,7 +62,7 @@ pipeline {
 
   post {
     success {
-      echo "Build ${env.VERSION} deployed successfully."
+      echo "Build ${env.VERSION} deployed successFully."
     }
     failure {
       echo "Pipeline failed. Check the logs above."
